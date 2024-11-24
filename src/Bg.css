@@ -1,0 +1,71 @@
+
+
+@font-face {
+    font-family: Aduma;
+    src: url(./fonts/Aduma\ Regular.ttf);
+}
+
+
+.bg_cont {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 135px;
+    background-color: #222a34;
+    border-radius: 20px;
+    position: relative;
+}
+
+.heder {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.heder_title {
+    color: white;
+    font-size: 44px;
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 37px;
+    font-family: Aduma;
+}
+
+.close_img {
+    position: absolute;
+   top: 30px;
+    left: 30px;
+}
+.up_img {
+    position: absolute;
+    width: 150px;
+    left: 30px;
+    background-color: #475366;
+    border: 0;
+    color: rgba(255, 255, 255, 0.438);
+    padding: 8px;
+    border-radius: 50px;
+    background-image: url(./asset/Upload.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.up_btn_text{
+    color: rgba(255, 255, 255, 0.548);
+    direction: rtl;
+    position: absolute;
+    left: 120px;
+}
+
+.midlle{
+    border: 1px solid #475366;
+height: 550px;
+    
+}
+.footer{
+    display: flex
+    ;
+        justify-content: space-evenly;
+
+}
